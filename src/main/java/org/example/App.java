@@ -22,9 +22,11 @@ public class App
         Calculator calculator = new Calculator();
         double sum = calculator.add(num1, num2);
         double average = calculator.mean(num1, num2);
+        double subtraction = calculator.subtract(num1,num2);
 
         // Display results
         System.out.println("Sum: " + sum);
         System.out.println("Mean: " + average);
+        System.out.println("Subttraction: " + subtraction);
     }
 }
