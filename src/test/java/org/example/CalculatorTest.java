@@ -19,4 +19,11 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assertEquals(2.5, calculator.mean(2, 3), DELTA);
     }
+
+    @Test
+    public void testSubract(){
+        Calculator calculator = new Calculator();
+        assertEquals(3, calculator.subtract(5,2), DELTA);
+
+    }
 }
